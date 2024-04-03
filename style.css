@@ -1,0 +1,92 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100%;
+    
+}
+ 
+ 
+header {
+    background-color: rgba(166, 205, 225, 0.975);
+    color: #fff;
+    padding: 15px 20px; /* Espacement ds le header */
+}
+ 
+nav {
+    display: flex; /* On donne une valeur par defaut aux éléments qui resteront flexibles */
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+ 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+ 
+ 
+li {
+    margin: 0 10px;
+}
+ 
+/* Pour mon logo, à définir */
+li img {
+    max-height: 130px; /* Taille max*/
+}
+ 
+.container {
+    width: 50%; /* Ajustez la largeur selon vos besoins */
+    margin: 50px auto; /* Centrer le formulaire horizontalement avec une marge */
+    padding: 20px;
+    border: 2px solid #4c6be6; /* Couleur et épaisseur de la bordure */
+    border-radius: 10px; /* Pour arrondir les coins */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+ 
+.form-group {
+    margin-bottom: 20px; /* Espacement entre les champs */
+}
+ 
+label {
+    display: block; /* Afficher les étiquettes sur une nouvelle ligne */
+}
+ 
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Prendre toute la largeur disponible */
+    padding: 10px; /* Espacement à l'intérieur des champs */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 5px; /* Coins arrondis */
+}
+ 
+button {
+    padding: 10px 20px; /* Espacement à l'intérieur du bouton */
+    background-color: #4c6be6; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de type pointer */
+}
+ 
+button:hover {
+    background-color: #324a9e; /* Changement de couleur au survol */
+}
+ 
+p {
+    margin-top: 20px; /* Espacement au-dessus du lien d'inscription */
+}
+ 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 20px;
+    background: rgba(166, 205, 225, 0.975);
+    color: white;
+}
+ 
